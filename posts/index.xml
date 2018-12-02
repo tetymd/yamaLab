@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on yamaLab</title>
+    <link>https://tetymd.github.io/yamalab/posts/</link>
+    <description>Recent content in Posts on yamaLab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 02 Dec 2018 20:42:36 +0900</lastBuildDate>
+    
+	<atom:link href="https://tetymd.github.io/yamalab/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ブログ初めました</title>
+      <link>https://tetymd.github.io/yamalab/posts/%E3%83%96%E3%83%AD%E3%82%B0%E5%88%9D%E3%82%81%E3%81%BE%E3%81%97%E3%81%9F/</link>
+      <pubDate>Sun, 02 Dec 2018 20:42:36 +0900</pubDate>
+      
+      <guid>https://tetymd.github.io/yamalab/posts/%E3%83%96%E3%83%AD%E3%82%B0%E5%88%9D%E3%82%81%E3%81%BE%E3%81%97%E3%81%9F/</guid>
+      <description>ついに自分のブログを始めてしまった。
+以前からブログやりたいなーとは思ってはいたけど、 なんかやる気が起きなくて後回しにしていた笑
+でもエンジニアとして生きていく上で 得た知識をアウトプットすることの重要性が説かれているのを いろいろなところで聞くようになって、 ちょっとした危機感めいたものを感じたので始めてみるかーと思い至ったわけである。
+今はLinux、コンテナ、クラウド、データ分析系の技術に興味があって、
+そのあたりを中心にちまちま書いていこうかなと考えている。
+以上、今日はここまで。</description>
+    </item>
+    
+  </channel>
+</rss>
