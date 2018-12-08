@@ -6,10 +6,30 @@
     <description>Recent content in Posts on yamaLab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Wed, 05 Dec 2018 22:26:23 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 08 Dec 2018 18:21:53 +0900</lastBuildDate>
     
 	<atom:link href="https://tetymd.github.io/yamalab/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ファイルディスクリプタについて学ぶ</title>
+      <link>https://tetymd.github.io/yamalab/posts/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%83%87%E3%82%A3%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%82%BF%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E5%AD%A6%E3%81%B6/</link>
+      <pubDate>Sat, 08 Dec 2018 18:21:53 +0900</pubDate>
+      
+      <guid>https://tetymd.github.io/yamalab/posts/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%83%87%E3%82%A3%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%82%BF%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E5%AD%A6%E3%81%B6/</guid>
+      <description>Linuxの低レイヤーでよく見かけるファイルディスクリプタ(fd)についてお勉強。
+ファイルディスクリプタとは ファイルディスクリプタとは、
+開かれているファイルを表すユニークな数字のこと。
+また、特別なファイルディスクリプタである0, 1, 2には名前が付けられている。
+   file descriptor name     0 standard input   1 standard output   2 standard error    2&amp;gt;&amp;amp;1のようなリダイレクトで使われている数字は上記のファイルディスクリプタのこと。
+
+ファイルディスクリプタの生成 プロセスがファイルをオープンするとカーネルはfdを返す。
+fdはGlobal file tableのエントリを示しており、
+Global file tableのエントリはそのファイルのinode、バイトオフセット、データストリームのアクセス制限情報を含んでいる。
+
+ファイルディスクリプタを取得する Go言語でファイルディスクリプタを取得するプログラムを作った。
+package main import ( &amp;quot;fmt&amp;quot; &amp;quot;os&amp;quot; ) func main() { // open a file f, err := os.Open(&amp;quot;./main.go&amp;quot;) if err != nil { fmt.</description>
+    </item>
     
     <item>
       <title>【Reddit翻訳】その２</title>
